@@ -196,17 +196,17 @@
 
 <h1 id="railsアプリを登録する">Railsアプリを登録する</h1>
 
-<p>プロフィールから <code class="highlighter-rouge">Repository追加</code> ページへ移動すると、GitHubリポジトリをGitLocalizeに追加するフォームがあります。</p>
+<p>プロフィールから <code class="language-plaintext highlighter-rouge">Repository追加</code> ページへ移動すると、GitHubリポジトリをGitLocalizeに追加するフォームがあります。</p>
 
 <p>ページの中央で、ソースi18nファイルの場所と翻訳ファイルの生成場所を指定します。</p>
 
-<p>たとえば英語のi18n YAMLファイルが<code class="highlighter-rouge">config/locales/en.yml</code>にあり、 翻訳したいファイルが<code class="highlighter-rouge">config/locales/ja.yml</code>や<code class="highlighter-rouge">config/locales/es.yml</code>にあるとします。この場合、左側のドロップダウンメニューで<code class="highlighter-rouge">File</code>を選択し、 <code class="highlighter-rouge">Source Path</code>に<code class="highlighter-rouge">config/locales/en.yml</code> 、<code class="highlighter-rouge">Translation Path</code>に<code class="highlighter-rouge">config/locales/%lang%.yml</code>を入力します。</p>
+<p>たとえば英語のi18n YAMLファイルが<code class="language-plaintext highlighter-rouge">config/locales/en.yml</code>にあり、 翻訳したいファイルが<code class="language-plaintext highlighter-rouge">config/locales/ja.yml</code>や<code class="language-plaintext highlighter-rouge">config/locales/es.yml</code>にあるとします。この場合、左側のドロップダウンメニューで<code class="language-plaintext highlighter-rouge">File</code>を選択し、 <code class="language-plaintext highlighter-rouge">Source Path</code>に<code class="language-plaintext highlighter-rouge">config/locales/en.yml</code> 、<code class="language-plaintext highlighter-rouge">Translation Path</code>に<code class="language-plaintext highlighter-rouge">config/locales/%lang%.yml</code>を入力します。</p>
 
 <p><img src="/img/ror/path_rule.png" alt="Add Rules" /></p>
 
-<p>この <code class="highlighter-rouge">%lang%</code> は翻訳対象言語の二文字の言語コードのプレースホルダーです。例えば、日本語とスペイン語を翻訳している場合、<code class="highlighter-rouge">ja.yml</code> と <code class="highlighter-rouge">es.yml</code> がそれぞれ生成されます。</p>
+<p>この <code class="language-plaintext highlighter-rouge">%lang%</code> は翻訳対象言語の二文字の言語コードのプレースホルダーです。例えば、日本語とスペイン語を翻訳している場合、<code class="language-plaintext highlighter-rouge">ja.yml</code> と <code class="language-plaintext highlighter-rouge">es.yml</code> がそれぞれ生成されます。</p>
 
-<p>i18nファイルが複数ある場合は、 <code class="highlighter-rouge">+ Add Rule</code>ボタンをクリックすることで、複数のルールを登録できます。</p>
+<p>i18nファイルが複数ある場合は、 <code class="language-plaintext highlighter-rouge">+ Add Rule</code>ボタンをクリックすることで、複数のルールを登録できます。</p>
 
 <h1 id="ローカライズを始める">ローカライズを始める</h1>
 

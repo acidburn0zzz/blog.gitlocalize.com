@@ -5,7 +5,7 @@
     <atom:link href="http://blog.gitlocalize.com/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://blog.gitlocalize.com/</link>
     <description></description>
-    <pubDate>Fri, 27 Mar 2020 09:30:05 +0000</pubDate>
+    <pubDate>Sun, 28 Mar 2021 15:25:24 +0000</pubDate>
     
       <item>
         <title>🚀 Release Notes - Badges, Filters and More</title>
@@ -139,17 +139,17 @@
 
 &lt;h1 id=&quot;register-your-rails-app&quot;&gt;Register Your Rails App&lt;/h1&gt;
 
-&lt;p&gt;Navigate to the &lt;code class=&quot;highlighter-rouge&quot;&gt;Add Repository&lt;/code&gt; page from your profile. Here, you’ll see the form to register your GitHub repository with the GitLocalize platform.&lt;/p&gt;
+&lt;p&gt;Navigate to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Add Repository&lt;/code&gt; page from your profile. Here, you’ll see the form to register your GitHub repository with the GitLocalize platform.&lt;/p&gt;
 
 &lt;p&gt;In the middle of the page, specify where your source i18n files are located and where you want to generate translated files.&lt;/p&gt;
 
-&lt;p&gt;For example, let’s say that you have source English i18n YAML files at &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt; and want to have translated ones at &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/ja.yml&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/es.yml&lt;/code&gt;. Set the drop-down menu on the left to &lt;code class=&quot;highlighter-rouge&quot;&gt;File&lt;/code&gt;, then type &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt; for &lt;code class=&quot;highlighter-rouge&quot;&gt;Source Path&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/%lang%.yml&lt;/code&gt; for &lt;code class=&quot;highlighter-rouge&quot;&gt;Translation Path&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For example, let’s say that you have source English i18n YAML files at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt; and want to have translated ones at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config/locales/ja.yml&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config/locales/es.yml&lt;/code&gt;. Set the drop-down menu on the left to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;File&lt;/code&gt;, then type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt; for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Source Path&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config/locales/%lang%.yml&lt;/code&gt; for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Translation Path&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/ror/path_rule.png&quot; alt=&quot;Add Rules&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This &lt;code class=&quot;highlighter-rouge&quot;&gt;%lang%&lt;/code&gt; is a placeholder for the two-character code of your translation target languages. For example, if you’re translating to Japanese and Spanish, &lt;code class=&quot;highlighter-rouge&quot;&gt;ja.yml&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;es.yml&lt;/code&gt; will be generated, respectively.&lt;/p&gt;
+&lt;p&gt;This &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%lang%&lt;/code&gt; is a placeholder for the two-character code of your translation target languages. For example, if you’re translating to Japanese and Spanish, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ja.yml&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;es.yml&lt;/code&gt; will be generated, respectively.&lt;/p&gt;
 
-&lt;p&gt;If you have multiple i18n files, simply click the &lt;code class=&quot;highlighter-rouge&quot;&gt;+ Add Rule&lt;/code&gt; button to register more rules.&lt;/p&gt;
+&lt;p&gt;If you have multiple i18n files, simply click the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+ Add Rule&lt;/code&gt; button to register more rules.&lt;/p&gt;
 
 &lt;h1 id=&quot;start-localizing&quot;&gt;Start Localizing&lt;/h1&gt;
 

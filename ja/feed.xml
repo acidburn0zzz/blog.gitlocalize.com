@@ -5,7 +5,7 @@
     <atom:link href="http://blog.gitlocalize.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://blog.gitlocalize.com/ja/</link>
     <description></description>
-    <pubDate>Fri, 27 Mar 2020 09:30:05 +0000</pubDate>
+    <pubDate>Sun, 28 Mar 2021 15:25:25 +0000</pubDate>
     
       <item>
         <title>GoogleのWeb FundamentalsがローカライズにGitLocalizeを試験運用開始</title>
@@ -42,17 +42,17 @@
 
 &lt;h1 id=&quot;railsアプリを登録する&quot;&gt;Railsアプリを登録する&lt;/h1&gt;
 
-&lt;p&gt;プロフィールから &lt;code class=&quot;highlighter-rouge&quot;&gt;Repository追加&lt;/code&gt; ページへ移動すると、GitHubリポジトリをGitLocalizeに追加するフォームがあります。&lt;/p&gt;
+&lt;p&gt;プロフィールから &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Repository追加&lt;/code&gt; ページへ移動すると、GitHubリポジトリをGitLocalizeに追加するフォームがあります。&lt;/p&gt;
 
 &lt;p&gt;ページの中央で、ソースi18nファイルの場所と翻訳ファイルの生成場所を指定します。&lt;/p&gt;
 
-&lt;p&gt;たとえば英語のi18n YAMLファイルが&lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt;にあり、 翻訳したいファイルが&lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/ja.yml&lt;/code&gt;や&lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/es.yml&lt;/code&gt;にあるとします。この場合、左側のドロップダウンメニューで&lt;code class=&quot;highlighter-rouge&quot;&gt;File&lt;/code&gt;を選択し、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Source Path&lt;/code&gt;に&lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt; 、&lt;code class=&quot;highlighter-rouge&quot;&gt;Translation Path&lt;/code&gt;に&lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/%lang%.yml&lt;/code&gt;を入力します。&lt;/p&gt;
+&lt;p&gt;たとえば英語のi18n YAMLファイルが&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt;にあり、 翻訳したいファイルが&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config/locales/ja.yml&lt;/code&gt;や&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config/locales/es.yml&lt;/code&gt;にあるとします。この場合、左側のドロップダウンメニューで&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;File&lt;/code&gt;を選択し、 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Source Path&lt;/code&gt;に&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt; 、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Translation Path&lt;/code&gt;に&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config/locales/%lang%.yml&lt;/code&gt;を入力します。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/ror/path_rule.png&quot; alt=&quot;Add Rules&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;この &lt;code class=&quot;highlighter-rouge&quot;&gt;%lang%&lt;/code&gt; は翻訳対象言語の二文字の言語コードのプレースホルダーです。例えば、日本語とスペイン語を翻訳している場合、&lt;code class=&quot;highlighter-rouge&quot;&gt;ja.yml&lt;/code&gt; と &lt;code class=&quot;highlighter-rouge&quot;&gt;es.yml&lt;/code&gt; がそれぞれ生成されます。&lt;/p&gt;
+&lt;p&gt;この &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%lang%&lt;/code&gt; は翻訳対象言語の二文字の言語コードのプレースホルダーです。例えば、日本語とスペイン語を翻訳している場合、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ja.yml&lt;/code&gt; と &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;es.yml&lt;/code&gt; がそれぞれ生成されます。&lt;/p&gt;
 
-&lt;p&gt;i18nファイルが複数ある場合は、 &lt;code class=&quot;highlighter-rouge&quot;&gt;+ Add Rule&lt;/code&gt;ボタンをクリックすることで、複数のルールを登録できます。&lt;/p&gt;
+&lt;p&gt;i18nファイルが複数ある場合は、 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+ Add Rule&lt;/code&gt;ボタンをクリックすることで、複数のルールを登録できます。&lt;/p&gt;
 
 &lt;h1 id=&quot;ローカライズを始める&quot;&gt;ローカライズを始める&lt;/h1&gt;
 
